@@ -1230,8 +1230,12 @@ iframe {
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
     font-weight: 600;
-    display: block;
+    display: inline-block;
     padding: 1rem;
+}
+
+.project-box-info a img{
+    width: 36px;
 }
 
 .project-box-info .project-link {
