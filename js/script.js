@@ -50,6 +50,9 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     ScrollUpdate();
   }, 2000);
+
+  //
+  //
 });
 
 //
@@ -158,7 +161,6 @@ readMore.map((readMo, index) => {
 //
 //
 //
-
 //
 //
 //
@@ -193,7 +195,6 @@ anchor.map((a) => {
 //
 //
 //
-
 //
 //
 
@@ -223,9 +224,6 @@ window.addEventListener("mousemove", (event) => {
 //
 //
 //
-
-//
-//
 //
 //
 //
@@ -241,11 +239,11 @@ function appearFunc(entries, appearOnScroll) {
     if (!entry.isIntersecting) {
       return;
     } else {
-      if (window.pageYOffset == 0) {
+      if (locoYOffset == 0 || locoYOffset == undefined) {
         setTimeout(() => {
           entry.target.classList.add("opacity");
           appearOnScroll.unobserve(entry.target);
-        }, 2000);
+        }, 2500);
       } else {
         entry.target.classList.add("opacity");
         appearOnScroll.unobserve(entry.target);
@@ -259,3 +257,11 @@ const appearOnScroll = new IntersectionObserver(appearFunc, options);
 const profileContainer = document.querySelector(".profile-container");
 
 appearOnScroll.observe(profileContainer);
+
+//
+//
+//
+//
+//
+//
+//
