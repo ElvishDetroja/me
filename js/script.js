@@ -25,17 +25,6 @@ window.addEventListener("load", () => {
     el: smoothScrollWrapper,
     smooth: true,
     scrollFromAnywhere: true,
-    direction: "horizontal",
-    mobile: {
-      breakpoint: 0,
-      smooth: true,
-      direction: "horizontal",
-    },
-    tablet: {
-      breakpoint: 0,
-      smooth: true,
-      direction: "horizontal",
-    },
     lerp: 0.05,
     multiplier: 0.5,
   });
