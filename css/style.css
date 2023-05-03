@@ -1615,6 +1615,10 @@ iframe {
     margin: 1.5rem;
 }
 
+.review-card img{
+    width: 3.6rem;
+}
+
 .review-card-top {
     display: flex;
     justify-content: space-between;
