@@ -1314,7 +1314,7 @@ iframe {
 
 
 .project-1 .project-box-description {
-    max-height: 400px;
+    max-height: 100px;
 }
 
 .project-2 .project-box-description {
@@ -1322,18 +1322,22 @@ iframe {
 }
 
 .project-3 .project-box-description {
-    max-height: 100px;
+    max-height: 400px;
+}
+
+.project-4 .project-box-description {
+    max-height: 400px;
 }
 
 .project-1 .project-box-info h2 {
-    background: -webkit-linear-gradient(135deg, rgb(227, 121, 121), rgb(235, 19, 19), var(--white), var(--white));
-    background: linear-gradient(-45deg, rgb(214, 65, 65), rgb(235, 19, 19), var(--white), var(--white));
+    background: -webkit-linear-gradient(135deg, #09c6f9, #045de9, var(--white), var(--white));
+    background: linear-gradient(-45deg, #09c6f9, #045de9, var(--white), var(--white));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 400% 400%;
     -webkit-animation: gradient 10s infinite;
-    animation: gradient 10s infinite;
+    animation: gradient 10s infinite 9s;
 }
 
 .project-2 .project-box-info h2 {
@@ -1344,22 +1348,30 @@ iframe {
     -webkit-text-fill-color: transparent;
     background-size: 400% 400%;
     -webkit-animation: gradient 10s infinite;
-    animation: gradient 10s infinite 3s;
+    animation: gradient 10s infinite 6s;
 }
 
-
 .project-3 .project-box-info h2 {
-    background: -webkit-linear-gradient(135deg, #09c6f9, #045de9, var(--white), var(--white));
-    background: linear-gradient(-45deg, #09c6f9, #045de9, var(--white), var(--white));
+    background: -webkit-linear-gradient(135deg, rgb(227, 121, 121), rgb(235, 19, 19), var(--white), var(--white));
+    background: linear-gradient(-45deg, rgb(214, 65, 65), rgb(235, 19, 19), var(--white), var(--white));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 400% 400%;
     -webkit-animation: gradient 10s infinite;
-    animation: gradient 10s infinite 6s;
+    animation: gradient 10s infinite 3s;
 }
 
-
+.project-4 .project-box-info h2 {
+    background: -webkit-linear-gradient(135deg,rgb(210, 78, 60), rgb(248, 78, 57), var(--white), var(--white));
+    background: linear-gradient(-45deg,rgb(182, 63, 47), rgb(248, 78, 57),  var(--white), var(--white));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+    -webkit-animation: gradient 10s infinite;
+    animation: gradient 10s infinite;
+}
 
 
 
